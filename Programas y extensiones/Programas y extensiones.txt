@@ -1,15 +1,7 @@
-Visual Studio Code - IDE (editor de codigo)
-XAMPP - (Base de datos y servidor local)
-Composer (Dependencias)
-NodeJS (Dependencias)
+Git - Versionamiento
 JDK - Java Developer Kit (instalador de JAVA)
-
-
-
-
-Json formatter - Extensión de Google
-
+Visual Studio Code - IDE (editor de codigo)
 Spanish language pack -  Extensión de Visual
 Material icon theme - Extensión de Visual
+Auto guardado - Configuración de Visual
 
-Auto guardado - Visual
