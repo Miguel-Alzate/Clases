@@ -1,0 +1,9 @@
+Comandos:
+    git push -u origin 'rama'
+
+Funciones del "git push -u origin 'rama'"
+Este comando sube los commits locales a un repositorio remoto, especificando a qué rama debe enviarlos. La opción -u establece un seguimiento entre la rama local y la remota, de manera que en futuros git push o git pull no es necesario especificar la rama de destino, ya que se considera la rama remota por defecto.
+
+Ejemplo de uso:
+
+Este comando sube los cambios de la rama main a la rama correspondiente en el repositorio remoto. El -u solo se usa la primera vez que se empuja la rama hacia el repositorio remoto. En resumen, git push sirve para enviar tus cambios locales al repositorio remoto y compartirlos con otros colaboradores.

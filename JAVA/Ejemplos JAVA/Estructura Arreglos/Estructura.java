@@ -41,6 +41,5 @@ public class Estructura{
         }else{
             System.out.println("El valor " + buscar + " no se encuentra en el arreglo.");
         }
-     
     }
 }

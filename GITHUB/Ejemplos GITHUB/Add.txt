@@ -1,0 +1,25 @@
+Comandos: 
+    git add .
+    git add archivo.java
+
+Funciones del "git add ."
+El comando git add . se utiliza para agregar todos los archivos modificados en el directorio actual (y subdirectorios) al área de preparación de Git (stage). Esto significa que cualquier cambio realizado en archivos ya versionados o nuevos archivos que no hayan sido ignorados por Git, serán incluidos para el siguiente commit. Es uno de los comandos más utilizados en el flujo de trabajo de Git, ya que permite agregar de forma masiva los cambios sin tener que especificar cada archivo individualmente.
+
+Este comando es especialmente útil cuando se han realizado múltiples cambios en varios archivos del proyecto y se desea confirmar todo el trabajo realizado de una sola vez.
+
+Ventajas de git add .:
+
+Ahorra tiempo al no tener que agregar archivo por archivo.
+Garantiza que todos los archivos modificados o nuevos sean preparados para el commit.
+
+
+Funciones del "git add <nombre del archivo>"
+El comando git add <nombre del archivo> se utiliza para agregar de manera selectiva un archivo específico al área de preparación. Esto permite incluir solo los archivos que se desean confirmar en el siguiente commit, mientras que los demás cambios pueden ser descartados o trabajados más tarde. Este comando es menos común que git add ., pero es útil cuando se quiere tener un control más preciso sobre qué cambios se agregarán al commit.
+
+
+Ventajas de git add <archivo>:
+
+Permite tener un control más detallado sobre qué cambios se incluyen en el commit.
+Ideal para situaciones donde solo se desea confirmar algunos archivos o modificaciones sin afectar todo el proyecto.
+
+

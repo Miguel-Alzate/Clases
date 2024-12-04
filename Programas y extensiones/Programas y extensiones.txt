@@ -1,7 +1,0 @@
-Git - Versionamiento
-JDK - Java Developer Kit (instalador de JAVA)
-Visual Studio Code - IDE (editor de codigo)
-Spanish language pack -  Extensión de Visual
-Material icon theme - Extensión de Visual
-Auto guardado - Configuración de Visual
-
