@@ -1,0 +1,4 @@
+Comandos:
+    git clone 'url_del_repositorio'
+
+Funciones del "git clone 'url_del_repositorio'" Este comando crea una copia local de un repositorio remoto. Clona todo el historial de versiones, ramas y archivos desde el repositorio especificado, lo que permite trabajar de manera local con el código fuente. Después de clonar, el repositorio local se configura automáticamente para hacer seguimiento al remoto, lo que facilita las operaciones posteriores como git pull o git push.

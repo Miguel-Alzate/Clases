@@ -1,0 +1,5 @@
+Comandos:
+    git pull origin 'rama'
+
+
+Funciones del "git pull origin 'rama'" Este comando se utiliza para actualizar la rama local con los últimos cambios de una rama remota. Es una combinación de dos comandos: git fetch, que descarga los cambios desde el repositorio remoto, y git merge, que incorpora esos cambios a tu rama local. Al especificar origin y 'rama', estás indicando que deseas obtener los cambios de la rama remota específica en el repositorio remoto llamado origin.
