@@ -15,3 +15,6 @@ Explicaciones/Matrices JAVA/
 # Ignorar todo dentro de Ejemplos JAVA excepto Estructura Entrada y Salida
 JAVA/Ejemplos JAVA/*
 !JAVA/Ejemplos JAVA/Estructura Entrada y Salida/
+
+JAVA/Actividades JAVA/*
+!Java/Actividades JAVA/Ejercicios 01 - Variables - ES.pdf
