@@ -8,13 +8,14 @@ JAVA/Videos JAVA/
 # Ignorar las carpetas específicas en Explicaciones excepto Variables JAVA
 Explicaciones/Arreglos JAVA/
 Explicaciones/Ciclos JAVA/
-Explicaciones/Condiciones JAVA/
 Explicaciones/Funciones JAVA/
 Explicaciones/Matrices JAVA/
 
 # Ignorar todo dentro de Ejemplos JAVA excepto Estructura Entrada y Salida
 JAVA/Ejemplos JAVA/*
 !JAVA/Ejemplos JAVA/Estructura Entrada y Salida/
+!JAVA/Ejemplos JAVA/Estructura Condiciones/
 
 JAVA/Actividades JAVA/*
 !Java/Actividades JAVA/Ejercicios 01 - Variables - ES.pdf
+!Java/Actividades JAVA/Ejercicios 02 - Condiciones.pdf
