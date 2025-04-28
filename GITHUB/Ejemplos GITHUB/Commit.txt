@@ -1,8 +1,0 @@
-Comandos:
-    git commit -m "nombre del commit"
-
-Funciones del "git commit -m 'Nombre del commit'"
-Este comando se utiliza para confirmar (o "commitear") los cambios que hemos agregado previamente al área de preparación con git add. El -m permite agregar un mensaje breve que describe los cambios realizados. Este mensaje es importante porque nos permite llevar un registro de lo que se ha modificado en cada commit, lo que facilita la gestión del historial del proyecto.
-
-
-En resumen, el git commit se usa para guardar un punto en el historial del repositorio con un mensaje explicativo de los cambios realizados hasta ese momento.
