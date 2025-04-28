@@ -16,21 +16,21 @@
     <!-- Navegación -->
     <nav>
         <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#articulo">Artículo</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+            <li>1. Sobre nosotros</li>
+            <li>2. Contacto</li>
+            <a  href="https://github.com/" target="_blank">Github</a>
         </ul>
     </nav>
 
     <!-- Sección Principal -->
-    <main">
+    <main>
         <h2>Sección de Inicio</h2>
         <p>Esta es una sección principal del contenido.</p>
-        <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
+        <img src="download.jpg" alt="Imagen de gatito">
 
         <!-- Artículo -->
-        <article id="articulo">
-            <h2>Artículo de Blog</h2>
+        <article>
+            <h3>Artículo de Blog</h3>
             <p>Este es un artículo independiente dentro de la página.</p>
             <p><strong>Texto en negrita</strong> y <em>texto en cursiva</em>.</p>
             <blockquote cite="https://example.com">Este es un bloque de cita de otra fuente.</blockquote>
@@ -47,21 +47,27 @@
                 <li>Tercer paso</li>
             </ol>
         </article>
-
+        
         <!-- Formulario de contacto -->
-        <section id="contacto">
+        <section>
             <h2>Formulario de Contacto</h2>
-            <form action="#" method="post">
-            <label for="nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+            <form>
+                <label  for="edad">Edad:</label>
+                <input  type="date" name="edad">
+                
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass">
 
-            <label for="email">Correo electrónico:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" required><br><br>
 
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" name="email" required><br><br>
 
-            <button type="submit">Enviar</button>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
